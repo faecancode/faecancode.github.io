@@ -1,5 +1,383 @@
+.header_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container3{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container3 a{
+    text-decoration: none;
+}
+
+.sidelogo{    
+    width: 20%;
+    height: 10%;  
+}
+
+.header_text1 , .header_text2 , .header_text3 {
+    text-align:left;
+    font-size: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: rgb(37, 28, 65);
+}
+
+#sidelogo2{
+    width: 5%;
+    height: auto;
+}
+
+#sidelogo3{
+    width: 5%;
+    height: auto;
+}
+
+.search_form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 5px;
+}
+
+.search_form input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search_form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+}
+
+.search_form button:hover {
+    color: #007BFF;
+}
+
+
 .nav{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav a{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.nav i{
+    display: flex;
+    align-items: center;
+}
+
+#timing,#location,#phone,#ig,#twt,#yt,#ld,#fb{
+    display: flex;
+    align-items: end;
+    font-size: 30px;
+    color: rgb(227, 181, 96);
+}
+
+#star,#nostar{
+    font-size: 10px;
+    color: rgb(255, 166, 0);
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#search{
+    font-size: 30px;
+    color:rgb(227, 181, 96);
+}
+
+footer{
+    background-color: #f2f2f2;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2{
     text-align: center;
+} 
+
+.review{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.reviewsection h2{
+    font-size: 300%;
+    color: #333;
+}
+
+.review p{
+    text-align: center;
+}
+
+#end{
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+#end h3{
+    font-family: sans-serif;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+
+.footer_section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer_section h3 {
+    margin-bottom: 10px;
+}
+
+.footer_section a {
+    text-decoration: none;
+    color: #333;
+    line-height: 1.8;
+}
+
+.footer_section a:hover {
+    text-decoration: underline;
+}
+
+
+.board h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 300%;
+    color: #333;
+}
+
+.board_members figure {
+    width: 200px;
+    text-align: center;
+}
+
+.board_members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.board_members img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.board_members figcaption {
+    margin-top: 10px;
+    font-size: 90%;
+    color: black;
+}
+
+#welcome,#department,#service,#contact,#about{
+    width: 100%;         
+    height: 30%;
+}       
+
+.appointment_form_section {  
+    text-align: left;
+    width: 30%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+}
+
+.appointment_form_section h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #0b5f90;
+}
+
+.appointment_form label {
+    display: block;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.appointment_form input, .appointment_form select {
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: solid white;
+    font-size: 14px;
+}
+
+.appointment_form button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 50%;
+    font-size: 18px;
+    background-color: #2f6286;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.aboutsaqr h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 300%;
+    color: #333;
+}
+
+.aboutsaqr p{
+    font-size: 130%;
+    text-align: center;
+}
+
+.depimg img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+.depimg figure {
+    width: 400px;
+    text-align: center;
+}
+
+.depimg figcaption {
+    font-size: 100%;
+    color: black;
+}
+
+.depimg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.department h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 300%;
+    color: #000000;
+}
+
+.serviceinfo h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 300%;
+    color: #000000;
+}
+
+.servicecontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 20px;
+}
+
+.infocontainer i{
+    color: rgb(255, 166, 0);
+    font-size: 30px
+}
+
+.footer_section_app a{
+    text-decoration: none;
+    color: #333 ;
+}
+
+.footer_section_app i{
+    color: rgb(255, 166, 0);
+}
+
+.footer_section_app{
+    flex: 1;
+    min-width: 200px;
+}
+
+.app{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+}
+
+.directcontact h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 300%;
+    color: #000000;
+}
+
+.directcontact p{
+    text-align: center;
+    font-size: 30px;
 }
 
 
